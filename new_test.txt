@@ -1,0 +1,71 @@
+Sender: Emily Turner (emily.turner@email.com)
+To: alex.carter@gmail.com
+BCC: sarah.davis@gmail.com
+Subject: Dinner Get-Together
+
+Hi Alex,
+
+I hope you're doing well. I was thinking it would be nice to have dinner together at 7:30 PM.
+
+Location: 1234 Elm Street, Springfield, MA 01234
+
+What do you think? Looking forward to catching up!
+
+Warm regards,
+Emily
+(555)123-4567
+
+-----
+
+Sender: Alex Carter (alex.carter@email.com)
+To: emily.turner@gmail.com
+Subject: Re: Dinner Get-Together
+
+Hi Emily,
+
+That sounds like a great plan! Let's meet up at 7 PM at:
+
+Location: 5678 Oak Avenue, Springfield, MA 01234
+
+I'm excited to see you!
+
+Best wishes,
+Alex
+(999)876-5432
+
+-----
+
+Sender: Emily Turner (emily.turner@gmail.com)
+To: sarah.davis@gmail.com
+Subject: Plans for Dinner
+
+Hi Sarah,
+
+I've confirmed dinner plans with Alex. Please make sure everything is set on your end. I'll be at:
+
+Location: 9876 Maple Lane, Springfield, MA 01234
+Time: 7:10 PM
+
+Looking forward to it!
+
+Best regards,
+Emily
+(777)234-5678
+
+-----
+
+Sender: Sarah Davis (sarah.davis@gmail.com)
+To: emily.turner@gmail.com
+Subject: Re: Dinner Plans
+
+Hi Emily,
+
+Got it! Let's meet up at:
+
+Location: 3456 Birch Street, Springfield, MA 01234
+
+I'll see you there.
+
+Best,
+Sarah
+(111)333-9999
