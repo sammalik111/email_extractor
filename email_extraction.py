@@ -29,7 +29,18 @@ def get_email_count(email_info: list) -> dict:
         email_count (dict): a dictionary with email address as key and count as value
     """
     # TODO: implement this function
-    pass
+    email_count = {}
+    email_pattern = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}")
+    
+    for email in email_info:
+        found_emails = email_pattern.findall(email)
+        for e in found_emails:
+            if e in email_count:
+                email_count[e] += 1
+            else:
+                email_count[e] = 1
+                
+    return email_count
 
 
 def get_phone_list(email_info: list) -> list:
