@@ -1,4 +1,4 @@
-Sender: Emily Turner (emily.turner@email.com)
+Sender: Emily Turner (emily.turner@gmail.com)
 To: alex.carter@gmail.com
 BCC: sarah.davis@gmail.com
 Subject: Dinner Get-Together
@@ -17,7 +17,7 @@ Emily
 
 -----
 
-Sender: Alex Carter (alex.carter@email.com)
+Sender: Alex Carter (alex.carter@gmail.com)
 To: emily.turner@gmail.com
 Subject: Re: Dinner Get-Together
 
