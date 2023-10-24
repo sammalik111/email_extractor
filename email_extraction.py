@@ -74,7 +74,19 @@ def get_address_list(email_info: list) -> list:
     Returns:
         address_list (list): a list of tuples, each tuple contains state, city, zip code, street name and street number
     """
-    pass
+    address_pattern = re.compile(
+        r"(\d+)\s+([a-zA-Z\s]+St)\s*,?\s*([a-zA-Z\s]+),?\s*([A-Z]{2})\s*(\d{5})"
+    )
+    address_list = []
+    
+    for email in email_info:
+        addresses = address_pattern.findall(email)
+        for address in addresses:
+            # reordering the extracted data to match the expected output format
+            reordered_address = (address[3], address[2], address[4], address[1], address[0])
+            address_list.append(reordered_address)
+            
+    return address_list
 
 
 
