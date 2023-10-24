@@ -53,7 +53,16 @@ def get_phone_list(email_info: list) -> list:
         phone_list (list): a list of raw phone numbers
     """
     # TODO: implement this function
-    pass
+    phone_pattern = re.compile(r"\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}")
+    phone_list = []
+    
+    for email in email_info:
+        phones = phone_pattern.findall(email)
+        for phone in phones:
+            phone_list.append(phone)
+            
+    return phone_list
+
 
 
 def get_address_list(email_info: list) -> list:
